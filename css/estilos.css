@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Like Eat;
+    src: url('Legend/Legend\ M54.ttf M54.ttf');
+}
+
+:root {
+    
+    --cor_fundo: #8292ca;
+    --cor_parágrafo:#030010;
+    --cor_título:#733ceb;
+    --cor_link:#4b3a64;
+    --fonte_principal:Like Eat;
+    --fonte_tamanho: 20px; 
+}
+
+body { 
+    font-family: var(--fonte_principal);
+    background-color: var(--cor_fundo);
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: var(--fonte_tamanho);
+}
+
+div.imagem {text-align: center;}
+
+h1 { 
+    color: var(--cor_título);
+    font-family: var(--fonte_principal);
+}
+
+body p {color: var(--cor_parágrafo);
+        text-align: justify;
+        font-family: var(--fonte_principal);}
+
+ul {padding: 0;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;}
+
+ul li {margin-bottom: 5px;}
+
+ul li a {color: var(--cor_link);
+        text-decoration: none;}
+
+img { 
+    width: 200px;
+    border-radius: 50%;
+    
+}
